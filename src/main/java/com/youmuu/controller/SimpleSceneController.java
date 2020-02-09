@@ -67,7 +67,6 @@ public class SimpleSceneController {
 
     private void addToTableElements(ImageInfo imageInfo) {
         ObservableList<ImageInfo> list = table.getItems();
-        System.out.println(imageInfo.getUrl());
         list.add(imageInfo);
         table.setItems(list);
     }
